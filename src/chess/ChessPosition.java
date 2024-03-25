@@ -37,3 +37,4 @@ public class ChessPosition {
 	}
 }
 /// | = alt + 124
+/// \ = alt + 92
