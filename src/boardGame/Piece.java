@@ -16,8 +16,8 @@ public abstract class Piece {
 
 	public abstract boolean[][] possibleMoves();
 
-	public boolean possibleMove(Position poition) {
-		return possibleMoves()[position.getRow()][position.getColumn()];
+	public boolean possibleMove(Position position) {
+		return possibleMoves()[position.getRow()][position.getColumn()]; //o position nessa linha tava escrito como poition, por isso q n tava funcionando
 	}
 
 	public boolean isThereAnyPossibleMove() {
